@@ -50,7 +50,7 @@ public class PlayerMovement : MonoBehaviour
 
             
 
-            if (Input.GetKeyDown("g"))
+            if (Input.GetKeyDown("Jump"))
             {
                 gravity *= -1;
                
