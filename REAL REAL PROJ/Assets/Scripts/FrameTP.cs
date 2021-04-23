@@ -8,6 +8,9 @@ public class FrameTP : MonoBehaviour
     public GameObject player;
     public Camera cam1;
     public Transform camTP;
+    public Rigidbody rb;
+    public CamTrack tracker;
+    public PlayerMovement mover;
 
     public Material skybox2;
 
@@ -15,6 +18,10 @@ public class FrameTP : MonoBehaviour
     void Start()
     {
         cam1.enabled = true;
+        rb = player.GetComponent<Rigidbody>();
+        tracker = cam1.GetComponent<CamTrack>();
+        mover = player.GetComponent<PlayerMovement>();
+   
     }
 
     // Update is called once per frame
@@ -30,6 +37,9 @@ public class FrameTP : MonoBehaviour
             player.transform.position = tpOut.transform.position;
             cam1.transform.position = camTP.position;
             RenderSettings.skybox = skybox2;
+            rb.constraints = RigidbodyConstraints.FreezePositionX;
+            tracker.track2d = true;
+            mover.move2d = true;
         }
     }
 
