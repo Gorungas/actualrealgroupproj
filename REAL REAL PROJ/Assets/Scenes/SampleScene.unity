@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.013300116, g: 0.0004378975, b: 0.01405294, a: 1}
+  m_IndirectSpecularColor: {r: 0.014259943, g: 0.0004378975, b: 0.014951768, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -411,8 +411,8 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 1.3830371
-  m_Center: {x: 0, y: 0.8830371, z: 0}
+  m_Radius: 1.3082764
+  m_Center: {x: 0.074760646, y: 0.8830368, z: -6.526246e-10}
 --- !u!4 &299065669 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 0a2d5225c0fb749fc8fcdc387acff941,
@@ -942,15 +942,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f183460658703c648b74c39f413f8320, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minBlink: 0
-  maxBlink: 0
-  waitTime: 0
-  currentTime: 0
-  blinkTime: 0
-  currentBlinkTime: 0
-  puppyMesh: {fileID: 0}
-  mesh1: {fileID: 0}
-  mesh2: {fileID: 0}
 --- !u!1 &603858945
 GameObject:
   m_ObjectHideFlags: 0
@@ -2665,6 +2656,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4683669308469848369, guid: 0a2d5225c0fb749fc8fcdc387acff941,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -804731622281664130, guid: 0a2d5225c0fb749fc8fcdc387acff941,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: -6922793697723135513, guid: 36fa279a56edd4f89ad0c03663644131,
+        type: 3}
     - target: {fileID: 919132149155446097, guid: 0a2d5225c0fb749fc8fcdc387acff941,
         type: 3}
       propertyPath: m_Name
@@ -2675,6 +2677,18 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 6317578925029434746, guid: 0a2d5225c0fb749fc8fcdc387acff941,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: -6922793697723135513, guid: 36fa279a56edd4f89ad0c03663644131,
+        type: 3}
+    - target: {fileID: 7202271454713460447, guid: 0a2d5225c0fb749fc8fcdc387acff941,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: -6922793697723135513, guid: 36fa279a56edd4f89ad0c03663644131,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0a2d5225c0fb749fc8fcdc387acff941, type: 3}
 --- !u!4 &543450651612269518 stripped
