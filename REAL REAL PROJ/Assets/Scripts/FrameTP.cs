@@ -12,6 +12,8 @@ public class FrameTP : MonoBehaviour
     public CamTrack tracker;
     public PlayerMovement mover;
 
+    public LossScript loss;
+
     public Material skybox2;
 
     // Start is called before the first frame update
@@ -21,6 +23,8 @@ public class FrameTP : MonoBehaviour
         rb = player.GetComponent<Rigidbody>();
         tracker = cam1.GetComponent<CamTrack>();
         mover = player.GetComponent<PlayerMovement>();
+
+
    
     }
 
@@ -40,6 +44,8 @@ public class FrameTP : MonoBehaviour
             rb.constraints = RigidbodyConstraints.FreezePositionX;
             tracker.track2d = true;
             mover.move2d = true;
+
+            loss.level++;
         }
     }
 
