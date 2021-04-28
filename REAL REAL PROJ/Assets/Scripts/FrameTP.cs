@@ -45,6 +45,9 @@ public class FrameTP : MonoBehaviour
             tracker.track2d = true;
             mover.move2d = true;
 
+            rb.angularVelocity = Vector3.zero;
+            rb.velocity = Vector3.zero;
+
             loss.level++;
         }
     }

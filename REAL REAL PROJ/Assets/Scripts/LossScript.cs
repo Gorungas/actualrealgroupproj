@@ -6,8 +6,9 @@ public class LossScript : MonoBehaviour
 {
     public int level;
 
-    public GameObject level1TP;
-    public GameObject level2TP;
+    public Transform level1TP;
+    public Transform level2TP;
+    public Transform level3TP;
 
     public GameObject player;
     public Rigidbody rb;
@@ -15,7 +16,7 @@ public class LossScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        level = 0;
+
     }
 
     // Update is called once per frame
@@ -26,17 +27,20 @@ public class LossScript : MonoBehaviour
 
     private void OnCollisionEnter(Collision other)
     {
-        if (other.gameObject.CompareTag("Cloud"))
+        if (other.gameObject.CompareTag("Cloud") || other.gameObject.CompareTag("Beak"))
         {
             print("coolididi");
 
             switch (level)
             {
                 case 0:
-                    player.transform.position = level1TP.transform.position;
+                    player.transform.position = level1TP.position;
                     break;
                 case 1:
-                    player.transform.position = level2TP.transform.position;
+                    player.transform.position = level2TP.position;
+                    break;
+                case 2:
+                    player.transform.position = level3TP.position;
                     break;
             }
             rb.velocity = Vector3.zero;
