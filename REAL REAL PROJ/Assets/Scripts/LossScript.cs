@@ -10,12 +10,12 @@ public class LossScript : MonoBehaviour
     public GameObject level2TP;
 
     public GameObject player;
-
+    public Rigidbody rb;
 
     // Start is called before the first frame update
     void Start()
     {
-        level = -1;
+        level = 0;
     }
 
     // Update is called once per frame
@@ -24,11 +24,13 @@ public class LossScript : MonoBehaviour
         
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnCollisionEnter(Collision other)
     {
-        if (other.CompareTag("Player"))
+        if (other.gameObject.CompareTag("Cloud"))
         {
-            switch(level)
+            print("coolididi");
+
+            switch (level)
             {
                 case 0:
                     player.transform.position = level1TP.transform.position;
@@ -37,6 +39,8 @@ public class LossScript : MonoBehaviour
                     player.transform.position = level2TP.transform.position;
                     break;
             }
+            rb.velocity = Vector3.zero;
+            rb.angularVelocity = Vector3.zero;
         }
     }
 }
