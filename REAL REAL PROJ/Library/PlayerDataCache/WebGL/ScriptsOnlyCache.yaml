@@ -69,11 +69,11 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11428}
+      Script: {instanceID: 11402}
     - Class: 114
-      Script: {instanceID: 11908}
+      Script: {instanceID: 11430}
     - Class: 114
-      Script: {instanceID: 12020}
+      Script: {instanceID: 11910}
     - Class: 114
       Script: {instanceID: 12312}
     - Class: 114
@@ -85,12 +85,14 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12980}
     - Class: 114
-      Script: {instanceID: 20294}
+      Script: {instanceID: 15180}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
       Script: {instanceID: 0}
     - Class: 135
+      Script: {instanceID: 0}
+    - Class: 136
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -139,6 +141,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: PlayerQuitHandler
+  - hash:
+      serializedVersion: 2
+      Hash: ced096de08a5cef263a5b4221d94661b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LossScript
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
@@ -447,7 +455,7 @@ ScriptsOnlyBuild:
     className: TMP_StyleSheet
   - hash:
       serializedVersion: 2
-      Hash: 1ec34b39e197dd8d7d361017359796de
+      Hash: 26407d2c38120b83a036bfe65f2508b6
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: CamTrack
@@ -547,13 +555,7 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 557ce9dfe9cdcef4b792774cfee60f33
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: LossScript
   platform: 20
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/jacks/OneDrive/Documents/newbuildfinal
+  playerPath: C:/Users/e9255/OneDrive/Desktop/Unity project
