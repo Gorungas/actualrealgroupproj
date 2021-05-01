@@ -85,7 +85,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12980}
     - Class: 114
-      Script: {instanceID: 15180}
+      Script: {instanceID: 15142}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -97,6 +97,10 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -558,4 +562,4 @@ ScriptsOnlyBuild:
   platform: 20
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/e9255/OneDrive/Desktop/Unity project
+  playerPath: C:/Users/e9255/OneDrive/Desktop/Unity project/P1
