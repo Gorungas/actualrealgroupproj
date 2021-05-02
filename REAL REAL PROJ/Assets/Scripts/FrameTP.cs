@@ -11,6 +11,7 @@ public class FrameTP : MonoBehaviour
     public Rigidbody rb;
     public CamTrack tracker;
     public PlayerMovement mover;
+    public bool hasBeenEntered = false;
 
     public LossScript loss;
 
@@ -56,7 +57,12 @@ public class FrameTP : MonoBehaviour
 
 
             }
-            loss.level++;
+            if (!hasBeenEntered)
+            {
+                loss.level++;
+                hasBeenEntered = true;
+            }
+            
         }
     }
 
