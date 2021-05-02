@@ -38,16 +38,24 @@ public class FrameTP : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            player.transform.position = tpOut.transform.position;
-            cam1.transform.position = camTP.position;
-            RenderSettings.skybox = skybox2;
-            rb.constraints = RigidbodyConstraints.FreezePositionX;
-            tracker.track2d = true;
-            mover.move2d = true;
+            if (loss.level == -1)
+            {
+                player.transform.position = tpOut.transform.position;
+                cam1.transform.position = camTP.position;
+                RenderSettings.skybox = skybox2;
+                rb.constraints = RigidbodyConstraints.FreezePositionX;
 
-            rb.angularVelocity = Vector3.zero;
-            rb.velocity = Vector3.zero;
 
+
+                tracker.track2d = true;
+                mover.move2d = true;
+
+
+                rb.angularVelocity = Vector3.zero;
+                rb.velocity = Vector3.zero;
+
+
+            }
             loss.level++;
         }
     }
