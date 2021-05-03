@@ -12,6 +12,7 @@ public class LossScript : MonoBehaviour
 
     public GameObject player;
     public Rigidbody rb;
+    public PlayerMovement pm;
 
     // Start is called before the first frame update
     void Start()
@@ -45,6 +46,12 @@ public class LossScript : MonoBehaviour
             }
             rb.velocity = Vector3.zero;
             rb.angularVelocity = Vector3.zero;
+
+            if (pm.gravity.y > 0 )
+            {
+                pm.gravity *= -1;
+            }
+
         }
     }
 }
