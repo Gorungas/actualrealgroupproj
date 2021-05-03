@@ -14,17 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-<<<<<<< HEAD
     x: 8
     y: 51
     width: 1522
     height: 806
-=======
-    x: 21.6
-    y: 50.4
-    width: 1432.8
-    height: 812.8
->>>>>>> parent of 9d7630a (cube World)
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
@@ -51,13 +44,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
     width: 1522
     height: 806
-=======
-    width: 1433
-    height: 813
->>>>>>> parent of 9d7630a (cube World)
   m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
@@ -77,11 +65,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
     width: 1522
-=======
-    width: 1433
->>>>>>> parent of 9d7630a (cube World)
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -102,13 +86,8 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-<<<<<<< HEAD
     y: 786
     width: 1522
-=======
-    y: 793
-    width: 1433
->>>>>>> parent of 9d7630a (cube World)
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -131,21 +110,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
-<<<<<<< HEAD
     width: 1522
     height: 756
   m_MinSize: {x: 677, y: 492}
   m_MaxSize: {x: 14001, y: 14042}
   vertical: 0
   controlID: 34
-=======
-    width: 1433
-    height: 763
-  m_MinSize: {x: 677, y: 492}
-  m_MaxSize: {x: 14001, y: 14042}
-  vertical: 0
-  controlID: 149
->>>>>>> parent of 9d7630a (cube World)
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -165,21 +135,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
     width: 1245
     height: 756
   m_MinSize: {x: 402, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
   controlID: 35
-=======
-    width: 1158
-    height: 763
-  m_MinSize: {x: 402, y: 492}
-  m_MaxSize: {x: 10001, y: 14042}
-  vertical: 1
-  controlID: 81
->>>>>>> parent of 9d7630a (cube World)
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -199,21 +160,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
     width: 1245
     height: 476
   m_MinSize: {x: 402, y: 221}
   m_MaxSize: {x: 8002, y: 4021}
   vertical: 0
   controlID: 36
-=======
-    width: 1158
-    height: 492
-  m_MinSize: {x: 402, y: 221}
-  m_MaxSize: {x: 8002, y: 4021}
-  vertical: 0
-  controlID: 82
->>>>>>> parent of 9d7630a (cube World)
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -231,13 +183,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
     width: 203
     height: 476
-=======
-    width: 297
-    height: 492
->>>>>>> parent of 9d7630a (cube World)
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 13}
@@ -260,17 +207,10 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-<<<<<<< HEAD
     x: 203
     y: 0
     width: 1042
     height: 476
-=======
-    x: 297
-    y: 0
-    width: 861
-    height: 492
->>>>>>> parent of 9d7630a (cube World)
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 12}
@@ -296,15 +236,9 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-<<<<<<< HEAD
     y: 476
     width: 1245
     height: 280
-=======
-    y: 492
-    width: 1158
-    height: 271
->>>>>>> parent of 9d7630a (cube World)
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
   m_ActualView: {fileID: 16}
@@ -329,17 +263,10 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-<<<<<<< HEAD
     x: 1245
     y: 0
     width: 277
     height: 756
-=======
-    x: 1158
-    y: 0
-    width: 275
-    height: 763
->>>>>>> parent of 9d7630a (cube World)
   m_MinSize: {x: 275, y: 50}
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 19}
@@ -368,17 +295,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
     x: 211
     y: 81
     width: 1040
     height: 455
-=======
-    x: 318.4
-    y: 80.8
-    width: 859
-    height: 471
->>>>>>> parent of 9d7630a (cube World)
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
   m_WindowGUID: 5de7d8897b5d3d54898f3e4fe7ad0243
@@ -390,15 +310,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-<<<<<<< HEAD
     m_Target: {x: 193.20879, y: -1103.3989, z: -4613.783}
     speed: 2
     m_Value: {x: 193.20879, y: -1103.3989, z: -4613.783}
-=======
-    m_Target: {x: 19.313702, y: 44.98156, z: -763.5812}
-    speed: 2
-    m_Value: {x: 19.313702, y: 44.98156, z: -763.5812}
->>>>>>> parent of 9d7630a (cube World)
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -444,7 +358,6 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-<<<<<<< HEAD
     m_Target: {x: -0.0070891683, y: -0.983074, z: 0.17888923, w: -0.038950667}
     speed: 2
     m_Value: {x: -0.007089157, y: -0.98307246, z: 0.17888895, w: -0.038950607}
@@ -452,15 +365,6 @@ MonoBehaviour:
     m_Target: 1632.1407
     speed: 2
     m_Value: 1632.1407
-=======
-    m_Target: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-    speed: 2
-    m_Value: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_Size:
-    m_Target: 93.588806
-    speed: 2
-    m_Value: 93.588806
->>>>>>> parent of 9d7630a (cube World)
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -506,7 +410,6 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
     x: 8
     y: 81
     width: 202
@@ -522,34 +425,13 @@ MonoBehaviour:
         m_UserAcceptedRename: 0
         m_Name: 
         m_OriginalName: 
-=======
-    x: 21.6
-    y: 80.8
-    width: 296
-    height: 471
-  m_ViewDataDictionary: {fileID: 0}
-  m_SceneHierarchy:
-    m_TreeViewState:
-      scrollPos: {x: 0, y: 670}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 30b7ffff1eb8ffffa6bcffffa8bcffffb6ccffff1ed3ffff5c3a00000c3b0000703c0000ae3c00002e3d00009a3d0000643f00007a3f0000764000004a410000dc41000082420000dc42000094430000
-      m_RenameOverlay:
-        m_UserAcceptedRename: 0
-        m_Name: whale :Cloud wall trigger
-        m_OriginalName: whale :Cloud wall trigger
->>>>>>> parent of 9d7630a (cube World)
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-<<<<<<< HEAD
         m_UserData: 0
-=======
-        m_UserData: -72678
->>>>>>> parent of 9d7630a (cube World)
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
         m_OriginalEventType: 11
@@ -715,17 +597,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
     x: 211
     y: 81
     width: 1040
     height: 455
-=======
-    x: 288
-    y: 73.6
-    width: 834
-    height: 422
->>>>>>> parent of 9d7630a (cube World)
   m_ViewDataDictionary: {fileID: 0}
   m_SerializedViewNames: []
   m_SerializedViewValues: []
@@ -735,11 +610,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-<<<<<<< HEAD
   m_TargetSize: {x: 1040, y: 434}
-=======
-  m_TargetSize: {x: 1042.5, y: 501.25}
->>>>>>> parent of 9d7630a (cube World)
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -754,17 +625,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-<<<<<<< HEAD
     m_HBaseRangeMin: -520
     m_HBaseRangeMax: 520
     m_VBaseRangeMin: -217
     m_VBaseRangeMax: 217
-=======
-    m_HBaseRangeMin: -417
-    m_HBaseRangeMax: 417
-    m_VBaseRangeMin: -200.5
-    m_VBaseRangeMax: 200.5
->>>>>>> parent of 9d7630a (cube World)
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -782,24 +646,16 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-<<<<<<< HEAD
       width: 1040
       height: 434
     m_Scale: {x: 1, y: 1}
     m_Translation: {x: 520, y: 217}
-=======
-      width: 834
-      height: 401
-    m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 417, y: 200.5}
->>>>>>> parent of 9d7630a (cube World)
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-<<<<<<< HEAD
       x: -520
       y: -217
       width: 1040
@@ -807,15 +663,6 @@ MonoBehaviour:
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 1040, y: 455}
-=======
-      x: -417
-      y: -200.5
-      width: 834
-      height: 401
-    m_MinimalGUI: 1
-  m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 1042.5, y: 527.5}
->>>>>>> parent of 9d7630a (cube World)
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 00000000000000000000
@@ -842,20 +689,13 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
     x: 8
     y: 557
     width: 1244
     height: 259
-=======
-    x: 21.6
-    y: 572.8
-    width: 1157
-    height: 250
->>>>>>> parent of 9d7630a (cube World)
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
-    m_NameFilter: cubeparent
+    m_NameFilter: 
     m_ClassNames: []
     m_AssetLabels: []
     m_AssetBundleNames: []
@@ -867,7 +707,6 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-<<<<<<< HEAD
     - Assets/Materials
   m_ViewMode: 1
   m_StartGridSize: 64
@@ -875,29 +714,14 @@ MonoBehaviour:
   - Assets/Materials
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\jacks\OneDrive\Documents\GitHub\actualrealgroupproj\REAL
-=======
-    - Assets
-  m_ViewMode: 1
-  m_StartGridSize: 64
-  m_LastFolders:
-  - Assets
-  m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\e9255\OneDrive\Documents\GitHub\actualrealgroupproj\REAL
->>>>>>> parent of 9d7630a (cube World)
     REAL PROJ
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-<<<<<<< HEAD
     m_SelectedIDs: e44e0000
     m_LastClickedID: 20196
     m_ExpandedIDs: 00000000d64e000000ca9a3b
-=======
-    m_SelectedIDs: 
-    m_LastClickedID: 0
-    m_ExpandedIDs: 000000002856000000ca9a3b
->>>>>>> parent of 9d7630a (cube World)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -925,11 +749,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-<<<<<<< HEAD
     m_ExpandedIDs: 00000000d64e0000
-=======
-    m_ExpandedIDs: 0000000028560000
->>>>>>> parent of 9d7630a (cube World)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -956,11 +776,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-<<<<<<< HEAD
     m_HadKeyboardFocusLastEvent: 0
-=======
-    m_HadKeyboardFocusLastEvent: 1
->>>>>>> parent of 9d7630a (cube World)
     m_ExpandedInstanceIDs: c6230000343400006c340000a0460000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1010,17 +826,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
     x: 8
     y: 557
     width: 1244
     height: 259
-=======
-    x: 7
-    y: 642
-    width: 1367
-    height: 306
->>>>>>> parent of 9d7630a (cube World)
   m_ViewDataDictionary: {fileID: 0}
 --- !u!114 &18
 MonoBehaviour:
@@ -1038,16 +847,11 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Animation
-<<<<<<< HEAD
     m_Image: {fileID: -8166618308981325432, guid: 0000000000000000d000000000000000,
-=======
-    m_Image: {fileID: -3237396543322336831, guid: 0000000000000000d000000000000000,
->>>>>>> parent of 9d7630a (cube World)
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
     x: 7.2000003
     y: 557.60004
     width: 1244
@@ -1056,16 +860,6 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_LastSelectedObjectID: 18500
-=======
-    x: 7
-    y: 642
-    width: 1367
-    height: 306
-  m_ViewDataDictionary: {fileID: 0}
-  m_LockTracker:
-    m_IsLocked: 0
-  m_LastSelectedObjectID: 15466
->>>>>>> parent of 9d7630a (cube World)
 --- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1087,17 +881,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
     x: 1253
     y: 81
     width: 276
     height: 735
-=======
-    x: 1180
-    y: 80.8
-    width: 273
-    height: 742
->>>>>>> parent of 9d7630a (cube World)
   m_ViewDataDictionary: {fileID: 0}
   m_OpenAddComponentMenu: 0
   m_ObjectsLockedBeforeSerialization: []

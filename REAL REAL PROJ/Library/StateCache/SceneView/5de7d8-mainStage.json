@@ -1,5 +1,1 @@
-<<<<<<< HEAD
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":false,"pivot":{"x":193.2087860107422,"y":-1103.39892578125,"z":-4613.783203125},"rotation":{"x":-0.007089168298989534,"y":-0.9830740094184876,"z":0.1788892298936844,"w":-0.03895066678524017},"size":1632.1407470703125,"orthographic":false}
-=======
-﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":false,"pivot":{"x":2.6000003814697267,"y":1.6999998092651368,"z":364.6000061035156},"rotation":{"x":0.7071068286895752,"y":0.0,"z":0.0,"w":0.7071068286895752},"size":17.07407569885254,"orthographic":false}
->>>>>>> parent of 9d7630a (cube World)
